@@ -1,0 +1,273 @@
+body {
+    background-color: #242629;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 60px;
+    background-color: #f2f4f6;
+    padding-bottom: 180px;
+}
+
+#name {
+    color: #181818;
+    font-family: Fjalla One;
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#title {
+    color: #4fc4cf;
+    font-family: Fjalla One;
+    font-size: 28px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+#social {
+    margin-top: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.socialize {
+    color: #2e2e2e;
+    text-decoration-line: none
+}
+
+.separator {
+    color: #ffffff;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 120px;
+}
+
+#projects > h1 {
+    color: #fffffe;
+    font-family: Fjalla One;
+    font-size: 42px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+#filter {
+    width: 58%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#filter a {
+    color: #fffffe;
+    background-color: #3da9fc;
+    font-family: proxima-nova, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration-line: none;
+    padding: 10px 12px 10px 12px;
+    margin-right: 15px;
+    border-radius: 2px;
+    transition: background-color 0.5s ease;
+}
+
+#filter a:hover {
+    background-color: #3E92CC;
+}
+
+#filter .active {
+    background-color: #3E92CC;
+}
+
+.project-tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin-top: 25px;
+    background-color: #16161a;
+    padding: 15px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+}
+
+.project-thumbnail {
+    width: 13%;
+    height: 120px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project-description {
+    width: 70%;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+.project-header {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-header  a {
+    color: #ef4565;
+    text-decoration-line: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 8px 6px;
+}
+
+.project-header  h1 {
+    color: #fffffe;
+    font-family: Fjalla One ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+.project-description > p {
+    color: #ddd6d6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.highlight {
+    background-color: #00bcd4;
+}
+
+.project-links {
+    margin-bottom: 0px;
+}
+
+.tags {
+    background-color: #fffffe;
+    color: #000000;
+    padding: 2px 3px 1px 3px;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.small-p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:600px) {
+    .project-tile {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+    .project-header {
+        flex-direction: column;
+    }
+
+    .project-header  h1 {
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .project-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .project-description > p {
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .project-thumbnail {
+        display: none;
+    }
+
+    #welcome-section > h1 {
+        text-align: center;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+
+    #social {
+        margin-top: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #social a {
+        margin-bottom: 10px;
+    }
+
+    .separator {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #filter {
+        overflow: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
+        padding-bottom: 15px;
+    }
+
+    .project-header h1 {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .project-description > .small-p {
+        line-height: 1.8em;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .project-thumbnail {
+        display: none;
+    }
+
+    #navbar {
+        padding-right: 60px;
+    }
+}
