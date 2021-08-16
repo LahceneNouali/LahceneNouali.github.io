@@ -71,13 +71,13 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
-        "title": "Puzzle of 8",
-        "thumbnailPath": "assets/puzzle-of-8.png",
-        "desc": "An AI solving the puzzle of 8 game using the A* algorithm.",
-        "demoLink": "#",
-        "github": "#",
-        "technologies": ['AWS Lambda', 'AWS API GATEWAY', 'Python', 'Javascript', 'html', 'css'],
-        "tag": "personal"
+        "title": "Django Boards",
+        "thumbnailPath": "assets/django-boards.png",
+        "desc": "A django boards web site which is a complete beginner's guide to django from the internet.",
+        "demoLink": "http://djangoboards.pythonanywhere.com/",
+        "github": "https://github.com/sibtc/django-beginners-guide",
+        "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
+        "tag": "tutorial"
     },
     {
         "title": "Stack Overflow 2018 Developer Survey Analysis",
