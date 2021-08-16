@@ -75,7 +75,7 @@ let projects = [
         "thumbnailPath": "assets/django-boards.png",
         "desc": "A django boards web site which is a complete beginner's guide to django from the internet.",
         "demoLink": "http://djangoboards.pythonanywhere.com/",
-        "github": "https://github.com/sibtc/django-beginners-guide",
+        "github": "https://github.com/lahcene13/django-discussion-board",
         "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
         "tag": "tutorial"
     },
