@@ -73,7 +73,7 @@ let projects = [
     {
         "title": "Django Boards",
         "thumbnailPath": "assets/django-boards.png",
-        "desc": "A django boards web site which is a complete beginner's guide to django from the internet.",
+        "desc": "A django boards web site which is a complete beginner's guide to django.",
         "demoLink": "http://djangoboards.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-discussion-board",
         "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
