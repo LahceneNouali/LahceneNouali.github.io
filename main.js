@@ -73,7 +73,7 @@ let projects = [
     {
         "title": "Django Boards",
         "thumbnailPath": "assets/django-boards.png",
-        "desc": "A django boards web site which is a complete beginner's guide to django.",
+        "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories. Then, inside a specific board, a user can start a new discussion by creating a new topic. In this topic, other users can engage in the discussion posting replies..",
         "demoLink": "http://djangoboards.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-discussion-board",
         "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
@@ -82,7 +82,7 @@ let projects = [
     {
         "title": "Photo Gallery App with Django",
         "thumbnailPath": "assets/django-gallery-app.jpg",
-        "desc": "A photo album website with Django on pythonanywhere.com.",
+        "desc": "A photo album website with django on pythonanywhere.com.",
         "demoLink": "http://galleryapp.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-gallery-app",
         "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap', 'sqlite'],
