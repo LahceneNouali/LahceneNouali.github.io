@@ -85,7 +85,7 @@ let projects = [
         "desc": "A photo album website with django on pythonanywhere.com.",
         "demoLink": "http://galleryapp.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-gallery-app",
-        "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap', 'sqlite'],
+        "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap'],
         "tag": "personal"
     },
     {
