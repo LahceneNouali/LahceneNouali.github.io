@@ -80,6 +80,15 @@ let projects = [
         "tag": "tutorial"
     },
     {
+        "title": "Photo Gallery App with Django",
+        "thumbnailPath": "assets/django-gallery-app.jpg",
+        "desc": "A photo album website with Django on pythonanywhere.com.",
+        "demoLink": "http://galleryapp.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-gallery-app",
+        "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap', 'sqlite'],
+        "tag": "personal"
+    },
+    {
         "title": "Stack Overflow 2018 Developer Survey Analysis",
         "thumbnailPath": "assets/stackoverflow-analysis.png",
         "desc": " data exploration and visualization on the Stack-Overflow-2018-Developer-Survey.",
