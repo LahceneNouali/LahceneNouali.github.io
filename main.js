@@ -73,7 +73,7 @@ let projects = [
     {
         "title": "Django Boards",
         "thumbnailPath": "assets/django-boards.png",
-        "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories. Then, inside a specific board, a user can start a new discussion by creating a new topic. In this topic, other users can engage in the discussion posting replies..",
+        "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories.",
         "demoLink": "http://djangoboards.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-discussion-board",
         "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
