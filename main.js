@@ -71,6 +71,15 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
+        "title": "Ecom360 (Panorama)",
+        "thumbnailPath": "assets/ecom360.jpg",
+        "desc": "An e-commerce website with a panoramic view developed using django.",
+        "demoLink": "http://ecom360.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-ecommerce",
+        "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
+        "tag": "personal"
+    },
+    {
         "title": "Django Boards",
         "thumbnailPath": "assets/django-boards.png",
         "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories.",
