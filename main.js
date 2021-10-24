@@ -89,7 +89,7 @@ let projects = [
         "tag": "tutorial"
     },
     {
-        "title": "Photo Gallery App with Django",
+        "title": "Photo Gallery App",
         "thumbnailPath": "assets/django-gallery-app.jpg",
         "desc": "A photo album website with django on pythonanywhere.com.",
         "demoLink": "http://galleryapp.pythonanywhere.com/",
