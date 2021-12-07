@@ -73,7 +73,7 @@ let projects = [
     {
         "title": "Weather App",
         "thumbnailPath": "assets/django-weather-app.jpeg",
-        "desc": "A weather application in Django using beautiful soup python library to fetch the weather data from google.",
+        "desc": "A weather application in django using beautiful soup python library to fetch the weather data from google.",
         "demoLink": "http://weatherapp2.pythonanywhere.com/?city=Alger",
         "github": "https://github.com/lahcene13/django-weather-app",
         "technologies": ['Django', 'Python requests', 'Beautiful Soup'],
@@ -82,7 +82,7 @@ let projects = [
     {
         "title": "Django Ecommerce",
         "thumbnailPath": "assets/ecom360.jpg",
-        "desc": "An e-commerce website with a panoramic view developed using Django.",
+        "desc": "An e-commerce website with a panoramic view developed using django.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-ecommerce",
         "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
@@ -91,7 +91,7 @@ let projects = [
     {
         "title": "Gallery App",
         "thumbnailPath": "assets/django-gallery-app.jpg",
-        "desc": "A photo album website with django on pythonanywhere.com.",
+        "desc": "A photo album website with the possibility to handle multiple files uploading in a form using django.",
         "demoLink": "http://galleryapp.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-gallery-app",
         "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap'],
