@@ -82,7 +82,7 @@ let projects = [
     {
         "title": "Django Ecommerce",
         "thumbnailPath": "assets/ecom360.jpg",
-        "desc": "An e-commerce website with a panoramic view developed using django.",
+        "desc": "An e-commerce website with a panoramic view and the cookies feature based on django and javascript.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-ecommerce",
         "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
