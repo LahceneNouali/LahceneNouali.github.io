@@ -71,22 +71,13 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
-        "title": "Django Ecom360 (Panorama)",
+        "title": "Django Ecommerce",
         "thumbnailPath": "assets/ecom360.jpg",
         "desc": "An e-commerce website with a panoramic view developed using django.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-ecommerce",
         "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
         "tag": "personal"
-    },
-    {
-        "title": "Django Boards",
-        "thumbnailPath": "assets/django-boards.png",
-        "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories.",
-        "demoLink": "http://djangoboards.pythonanywhere.com/",
-        "github": "https://github.com/lahcene13/django-discussion-board",
-        "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
-        "tag": "tutorial"
     },
     {
         "title": "Gallery App",
@@ -96,6 +87,15 @@ let projects = [
         "github": "https://github.com/lahcene13/django-gallery-app",
         "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap'],
         "tag": "personal"
+    },
+        {
+        "title": "Django Boards",
+        "thumbnailPath": "assets/django-boards.png",
+        "desc": "This project is a discussion board (a forum). The whole idea is to maintain several boards, which will behave like categories.",
+        "demoLink": "http://djangoboards.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-discussion-board",
+        "technologies": ['Python', 'Django', 'html', 'css', 'Postgres'],
+        "tag": "tutorial"
     },
     {
         "title": "Landing Page",
