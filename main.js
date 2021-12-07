@@ -71,7 +71,7 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
-        "title": "Ecom360 (Panorama)",
+        "title": "Django Ecom360 (Panorama)",
         "thumbnailPath": "assets/ecom360.jpg",
         "desc": "An e-commerce website with a panoramic view developed using django.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
@@ -96,24 +96,6 @@ let projects = [
         "github": "https://github.com/lahcene13/django-gallery-app",
         "technologies": ['Python', 'Django', 'html', 'css', 'bootstrap'],
         "tag": "personal"
-    },
-    {
-        "title": "Stack Overflow 2018 Developer Survey Analysis",
-        "thumbnailPath": "assets/stackoverflow-analysis.png",
-        "desc": " data exploration and visualization on the Stack-Overflow-2018-Developer-Survey.",
-        "demoLink": "#",
-        "github": "#",
-        "technologies": ['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Seaborn'],
-        "tag": "personal"
-    },
-    {
-        "title": "SearchEngine",
-        "thumbnailPath": "assets/searchEngine.png",
-        "desc": "Text Search Engine to search through text files.",
-        "demoLink": "#",
-        "github": "#",
-        "technologies": ['Python', 'PyQt'],
-        "tag": "university"
     },
     {
         "title": "Landing Page",
