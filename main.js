@@ -71,9 +71,18 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
+        "title": "Weather App",
+        "thumbnailPath": "assets/django-weather-app.jpeg",
+        "desc": "A weather application in Django using beautiful soup python library to fetch the weather data from google.",
+        "demoLink": "http://ecom360.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-ecommerce",
+        "technologies": ['Django', 'Python requests', 'Beautiful Soup'],
+        "tag": "youtube"
+    },
+    {
         "title": "Django Ecommerce",
         "thumbnailPath": "assets/ecom360.jpg",
-        "desc": "An e-commerce website with a panoramic view developed using django.",
+        "desc": "An e-commerce website with a panoramic view developed using Django.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-ecommerce",
         "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
