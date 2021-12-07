@@ -74,8 +74,8 @@ let projects = [
         "title": "Weather App",
         "thumbnailPath": "assets/django-weather-app.jpeg",
         "desc": "A weather application in Django using beautiful soup python library to fetch the weather data from google.",
-        "demoLink": "http://ecom360.pythonanywhere.com/",
-        "github": "https://github.com/lahcene13/django-ecommerce",
+        "demoLink": "http://weatherapp2.pythonanywhere.com/?city=Alger",
+        "github": "https://github.com/lahcene13/django-weather-app",
         "technologies": ['Django', 'Python requests', 'Beautiful Soup'],
         "tag": "youtube"
     },
