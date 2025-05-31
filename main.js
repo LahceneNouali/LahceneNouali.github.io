@@ -82,7 +82,7 @@ let projects = [
 	{
         "title": "Exercise Tracker",
         "thumbnailPath": "assets/exercise-tracker.png",
-        "desc": "The Exercise Tracker is a microservice API that allows users to create profiles, log exercise details (including description, duration, and date), and retrieve their exercise logs with optional date range and limit filters.",
+        "desc": "The Exercise Tracker is a microservice API that allows users to create profiles, log exercise details, and retrieve their exercise logs with optional date range and limit filters.",
         "demoLink": "https://exercise-tracker.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/Exercise-Tracker",
         "technologies": ['Node.js', 'Express.js', 'MongoDB', 'Mongoose'],
