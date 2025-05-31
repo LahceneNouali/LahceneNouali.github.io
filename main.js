@@ -70,13 +70,58 @@ function addProject(projectsDiv, projectData) {
 }
 
 let projects = [
+	{
+        "title": "File Metadata Microservice",
+        "thumbnailPath": "assets/file-metadata-microservice.png",
+        "desc": "The File Metadata Microservice is an API that allows users to upload a file and receive its metadata, including the file name, type, and size in bytes.",
+        "demoLink": "https://file-metadata-microservice.freecodecamp.rocks/",
+        "github": "https://github.com/LahceneNouali/File-Metadata-Microservice",
+        "technologies": ['Node.js', 'Express.js', 'Multer'],
+        "tag": "freecodecamp"
+    },
+	{
+        "title": "Exercise Tracker",
+        "thumbnailPath": "assets/exercise-tracker.png",
+        "desc": "The Exercise Tracker is a microservice API that allows users to create profiles, log exercise details (including description, duration, and date), and retrieve their exercise logs with optional date range and limit filters.",
+        "demoLink": "https://exercise-tracker.freecodecamp.rocks/",
+        "github": "https://github.com/LahceneNouali/Exercise-Tracker",
+        "technologies": ['Node.js', 'Express.js', 'MongoDB', 'Mongoose'],
+        "tag": "freecodecamp"
+    },
+	{
+        "title": "URL Shortener Microservice",
+        "thumbnailPath": "assets/url-shortener-microservice.png",
+        "desc": "The URL Shortener Microservice is an API that converts long URLs into shortened versions and redirects users from the short URL to the original link.",
+        "demoLink": "https://url-shortener-microservice.freecodecamp.rocks/",
+        "github": "https://github.com/LahceneNouali/URL-Shortener-Microservice",
+        "technologies": ['Node.js', 'Express.js'],
+        "tag": "freecodecamp"
+    },
+	{
+        "title": "Request Header Parser Microservice",
+        "thumbnailPath": "assets/request-header-parser-microservice.png",
+        "desc": "The Request Header Parser Microservice is an API that returns a JSON object containing the client's IP address, preferred language, and software information.",
+        "demoLink": "https://request-header-parser-microservice.freecodecamp.rocks/",
+        "github": "https://github.com/LahceneNouali/Request-Header-Parser-Microservice",
+        "technologies": ['Node.js', 'Express.js'],
+        "tag": "freecodecamp"
+    },
+	{
+        "title": "Timestamp Microservice",
+        "thumbnailPath": "assets/timestamp-microservice.png",
+        "desc": "The Timestamp Microservice is an API that returns Unix and UTC timestamps for a given date or the current time. It helps practice date parsing and JSON response handling.",
+        "demoLink": "https://timestamp-microservice.freecodecamp.rocks/",
+        "github": "https://github.com/LahceneNouali/Timestamp-Microservice",
+        "technologies": ['Node.js', 'Express.js'],
+        "tag": "freecodecamp"
+    },
     {
         "title": "Weather App",
         "thumbnailPath": "assets/django-weather-app.jpeg",
         "desc": "A weather application in django using beautiful soup python library to fetch the weather data from google.",
         "demoLink": "http://weatherapp2.pythonanywhere.com/?city=Alger",
         "github": "https://github.com/lahcene13/django-weather-app",
-        "technologies": ['Django', 'Python requests', 'Beautiful Soup'],
+        "technologies": ['Django', 'Beautiful Soup'],
         "tag": "youtube"
     },
     {
@@ -85,7 +130,7 @@ let projects = [
         "desc": "An e-commerce website with a panoramic view and cookies feature to save data developed using django and javascript.",
         "demoLink": "http://ecom360.pythonanywhere.com/",
         "github": "https://github.com/lahcene13/django-ecommerce",
-        "technologies": ['Python', 'Django', 'JavaScript', 'Three.js'],
+        "technologies": ['Python', 'Django', 'Three.js'],
         "tag": "personal"
     },
     {
