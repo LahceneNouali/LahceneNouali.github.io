@@ -77,7 +77,7 @@ let projects = [
         "demoLink": "https://file-metadata-microservice.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/File-Metadata-Microservice",
         "technologies": ['Node.js', 'Express.js', 'Multer'],
-        "tag": "freecodecamp"
+        "tag": "backend"
     },
 	{
         "title": "Exercise Tracker",
@@ -86,7 +86,7 @@ let projects = [
         "demoLink": "https://exercise-tracker.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/Exercise-Tracker",
         "technologies": ['Node.js', 'Express.js', 'MongoDB', 'Mongoose'],
-        "tag": "freecodecamp"
+        "tag": "backend"
     },
 	{
         "title": "URL Shortener Microservice",
@@ -95,7 +95,7 @@ let projects = [
         "demoLink": "https://url-shortener-microservice.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/URL-Shortener-Microservice",
         "technologies": ['Node.js', 'Express.js'],
-        "tag": "freecodecamp"
+        "tag": "backend"
     },
 	{
         "title": "Request Header Parser Microservice",
@@ -104,7 +104,7 @@ let projects = [
         "demoLink": "https://request-header-parser-microservice.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/Request-Header-Parser-Microservice",
         "technologies": ['Node.js', 'Express.js'],
-        "tag": "freecodecamp"
+        "tag": "backend"
     },
 	{
         "title": "Timestamp Microservice",
@@ -113,7 +113,7 @@ let projects = [
         "demoLink": "https://timestamp-microservice.freecodecamp.rocks/",
         "github": "https://github.com/LahceneNouali/Timestamp-Microservice",
         "technologies": ['Node.js', 'Express.js'],
-        "tag": "freecodecamp"
+        "tag": "backend"
     }
 ]
 
@@ -137,13 +137,13 @@ let filter_by_tag = function (tag) {
     document.getElementById(tag).setAttribute('class', 'active');
 }
 
-document.getElementById('university').addEventListener('click', function(event) {
-    filter_by_tag('university');
+document.getElementById('backend').addEventListener('click', function(event) {
+    filter_by_tag('backend');
     event.preventDefault();
 });
 
-document.getElementById('freecodecamp').addEventListener('click', function(event) {
-    filter_by_tag('freecodecamp');
+document.getElementById('frontend').addEventListener('click', function(event) {
+    filter_by_tag('frontend');
     event.preventDefault();
 });
 
