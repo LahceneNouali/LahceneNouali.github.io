@@ -71,6 +71,51 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
 	{
+        "title": "25 + 5 Clock",
+        "thumbnailPath": "assets/25+5-clock.png",
+        "desc": "A Pomodoro-style timer with adjustable session and break intervals (defaulting to 25 and 5 minutes) that alternates between work and rest periods.",
+        "demoLink": "https://codepen.io/Lahcene-Nouali/full/qEdPqLj",
+        "github": "#projects",
+        "technologies": ['HTML', 'CSS', 'JavaScript', 'React.js', 'Audio API'],
+        "tag": "frontend"
+    },
+	{
+        "title": "JavaScript Calculator",
+        "thumbnailPath": "assets/javascript-calculator.png",
+        "desc": "A React calculator app that lets users perform basic arithmetic operations like addition, subtraction, multiplication, and division.",
+        "demoLink": "https://codepen.io/Lahcene-Nouali/full/raVMvXr",
+        "github": "#projects",
+        "technologies": ['HTML', 'CSS', 'JavaScript', 'React.js'],
+        "tag": "frontend"
+    },
+	{
+        "title": "Drum Machine",
+        "thumbnailPath": "assets/drum-machine.png",
+        "desc": "A React-powered drum pad interface with nine clickable keys (Q, W, E, A, S, D, Z, X, C) that play different audio clips when clicked or triggered via keyboard.",
+        "demoLink": "https://codepen.io/Lahcene-Nouali/full/LEVNxKq",
+        "github": "#projects",
+        "technologies": ['HTML', 'CSS', 'JavaScript', 'React.js', 'Web Audio API'],
+        "tag": "frontend"
+    },
+	{
+        "title": "Markdown Previewer",
+        "thumbnailPath": "assets/markdown-previewer.png",
+        "desc": "A live, two-pane web app: one side to write GitHub‑flavored Markdown and the other that instantly renders the formatted HTML preview.",
+        "demoLink": "https://codepen.io/Lahcene-Nouali/full/QwwePvy",
+        "github": "#projects",
+        "technologies": ['HTML', 'CSS', 'JavaScript', 'React.js', 'Marked.js'],
+        "tag": "frontend"
+    },
+	{
+        "title": "Random Quote Machine",
+        "thumbnailPath": "assets/random-quote-machine.png",
+        "desc": "A dynamic webpage that fetches and displays a random quote and its author each time you click the “New quote” button.",
+        "demoLink": "https://codepen.io/Lahcene-Nouali/full/dPPLRGq",
+        "github": "#projects",
+        "technologies": ['HTML', 'CSS', 'JavaScript', 'React.js'],
+        "tag": "frontend"
+    },
+	{
         "title": "File Metadata Microservice",
         "thumbnailPath": "assets/file-metadata-microservice.png",
         "desc": "The File Metadata Microservice is an API that allows users to upload a file and receive its metadata, including the file name, type, and size in bytes.",
