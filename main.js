@@ -159,6 +159,33 @@ let projects = [
         "github": "https://github.com/LahceneNouali/Timestamp-Microservice",
         "technologies": ['Node.js', 'Express.js'],
         "tag": "backend"
+    },
+	{
+        "title": "Django Ecommerce",
+        "thumbnailPath": "assets/ecom360.jpg",
+        "desc": "I built a simple panoramic e-commerce website using Django and JavaScript. It includes product pages, a shopping cart, checkout, and cookies to save user data.",
+        "demoLink": "http://ecom360.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-ecommerce",
+        "technologies": ['html', 'css', 'javascript', 'Three.js', 'Python', 'Django', 'SQLite'],
+        "tag": "personal"
+    },
+	{
+        "title": "Weather App",
+        "thumbnailPath": "assets/django-weather-app.jpeg",
+        "desc": "A weather application in django using beautiful soup python library to fetch the weather data from google.",
+        "demoLink": "http://weatherapp2.pythonanywhere.com/?city=Alger",
+        "github": "https://github.com/lahcene13/django-weather-app",
+        "technologies": ['html', 'css', 'Python', 'Django', 'Beautiful Soup'],
+        "tag": "personal"
+    },
+    {
+        "title": "Gallery App",
+        "thumbnailPath": "assets/django-gallery-app.jpg",
+        "desc": "A photo album website with the possibility to handle multiple files uploading in a form using django.",
+        "demoLink": "http://galleryapp.pythonanywhere.com/",
+        "github": "https://github.com/lahcene13/django-gallery-app",
+        "technologies": ['html', 'css', 'bootstrap', 'Python', 'Django'],
+        "tag": "personal"
     }
 ]
 
